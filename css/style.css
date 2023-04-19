@@ -1,0 +1,184 @@
+html{
+  box-sizing: border-box;     
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(142,170,251,1) 100%);
+}
+
+.container{
+  width: 1280px;
+  margin: auto;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  padding: 0 20px;
+}
+
+.header__title{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+
+.title__line{
+  -webkit-transition: all 0.70s ease-in-out;
+  -moz-transition: all 0.70s ease-in-out;
+  -ms-transition: all 0.70s ease-in-out;
+  -o-transition: all 0.70s ease-in-out;
+  transition: all 0.70s ease-in-out;
+}
+
+.title__line:hover{
+  border-bottom: 1px solid white;
+}
+
+
+.user_input{
+  display: inherit;
+}
+
+.user_input input:focus{
+  box-shadow: 0 0 30px rgba(142,170,251,1);
+  border: 1px solid #ffffff;
+}
+
+input{
+  -webkit-transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -ms-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+}
+
+#input{
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#add_item{
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#to_do_list{
+  width: 500px;
+  margin: auto;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  padding: 1rem;
+  color: #454545;
+  margin-top: 15px;
+  font-size: 22px;
+  background-color: white;
+  border: 1px solid lightgray;
+  text-transform: uppercase;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+}
+
+.item:hover{
+  box-shadow: 0 0 20px rgba(142,170,251,1);
+  border: 1px solid #ffffff;
+}
+
+.fa-check-square{
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.fa-trash{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
