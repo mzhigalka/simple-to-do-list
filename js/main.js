@@ -22,7 +22,7 @@ addItem = (input) => {
   text.textContent = input;
 
   checkIcon.className = "fas fa-check-square";
-  checkIcon.style.color = "lightgray";
+  checkIcon.style.color = "lightgray"; 
   checkIcon.addEventListener("click", () => {
     checkIcon.style.color = "limegreen";
   })
@@ -31,7 +31,11 @@ addItem = (input) => {
   trashIcon.className = "fas fa-trash";
   trashIcon.style.color = "darkgray";
   trashIcon.addEventListener("click", () => {
-    item.remove();
+    if(confirm("Do you agree ? ")){
+      item.remove();
+    }else{
+      
+    }
   })
   div.appendChild(trashIcon);
 
